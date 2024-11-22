@@ -6,3 +6,9 @@ targetCustomizations:
       env: develop
   kustomize:
     dir: overlays/develop
+- name: production
+  clusterSelector:
+    matchLabels:
+      env: production
+  kustomize:
+    dir: overlays/production
