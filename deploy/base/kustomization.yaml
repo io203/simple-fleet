@@ -1,6 +1,4 @@
 resources:
 - simple-api-svc.yaml
 - simple-api-deploy.yaml
-images:
-- name: saturn203/simple-api
-  newTag: v2.1.11
+
