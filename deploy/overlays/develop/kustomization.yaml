@@ -1,8 +1,6 @@
 resources:
 - ../../base
 
-
-
 images:
 - name: saturn203/simple-api
   newTag: v2.1.11

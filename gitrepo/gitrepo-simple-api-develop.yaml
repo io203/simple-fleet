@@ -8,7 +8,5 @@ spec:
   branch: develop
   paths:
     - deploy
-  targets:  
-  - clusterSelector:
-      matchLabels:
-        env: develop
+
+  
