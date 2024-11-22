@@ -1,5 +1,7 @@
 resources:
-- ../../base
+# - ../../base
+- simple-api-svc.yaml
+- simple-api-deploy.yaml
 
 images:
 - name: saturn203/simple-api
