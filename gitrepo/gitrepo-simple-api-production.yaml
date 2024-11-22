@@ -7,4 +7,8 @@ spec:
   repo: "https://github.com/io203/simple-fleet.git"
   branch: main
   paths:
-    - deploy/overlays/production
+    - deploy
+  targets:  
+  - clusterSelector:
+      matchLabels:
+        env: production
